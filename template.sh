@@ -1,16 +1,14 @@
-# Creating directory 
+#create project structure
 mkdir -p src
-mkdir -p research 
+mkdir -p research
 
-# Creating files
+#create file
 touch src/__init__.py
-touch src/helper.py 
+touch src/helper.py
 touch src/prompt.py
-touch .env 
 touch setup.py
 touch app.py
-touch research/trials.ipynb 
+touch research/trials.ipynb
 touch requirements.txt
 
-
-echo "Directory and files created successfully!."
+echo "Project structure created successfully."
